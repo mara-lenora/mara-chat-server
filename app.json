@@ -1,0 +1,22 @@
+{
+  "name": "mara-chat-server",
+  "scripts": {
+    "postdeploy": "node index.js"
+  },
+  "env": {
+    "npm": {
+      "generator": "secret"
+    },
+    "node": {
+      "generator": "secret"
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
